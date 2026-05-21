@@ -42,4 +42,4 @@ FPGAs — almost any multi-clock FPGA design uses async FIFOs at the clock domai
 5. Click Run Behavioral Simulation
 6. In the Tcl Console, type: run 10000ns
 
-![Console Results](tclconsole-result.png)
+![Console Results](tclconsole-results.png)

@@ -1,4 +1,4 @@
-# asynchronous-fifo
+# Asynchronous-FIFO
 
 A FIFO (First In First Out) is a buffer, data goes in one end and comes out the other in the same order, like a queue at a coffee shop.
 An asynchronous FIFO takes this further. It lets two circuits running at different clock speeds share data safely. One side writes data fast, the other reads it slow (or vice versa), and the FIFO handles the mismatch without losing or corrupting anything.
@@ -43,3 +43,5 @@ FPGAs — almost any multi-clock FPGA design uses async FIFOs at the clock domai
 6. In the Tcl Console, type: run 10000ns
 
 ![Console Results](tclconsole-results.png)
+
+![Async FIFO_Waveform](asyncfifo-waveform.png)
